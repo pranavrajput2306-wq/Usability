@@ -37,3 +37,46 @@ a{
     text-decoration: none;
     display: inline-block;
 }
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+/* top banner */
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url("assets/asset_32.png");
+    background-size: 300px;
+
+
+}
+.banner-text{
+    color: white;
+    text-align: center;
+    font-size: .75rem;
+    padding: 15px 0;   
+}
+/* navbar */
+.logo img{
+    width: 200px;
+    
+}
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.navlinks{
+    flex-basis: 730px;
+}
+.navlinks ul{
+    justify-content: end;
+    gap: 40px;
+}
+
